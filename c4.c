@@ -332,7 +332,7 @@ void stmt()
   }
 }
 
-int main(int argc, char **argv)
+int main(signed argc, char **argv)
 {
   int fd, bt, ty, poolsz, *idmain;
   int *pc, *sp, *bp, a, cycle; // vm registers
