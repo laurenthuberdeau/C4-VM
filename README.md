@@ -19,7 +19,8 @@ This is a fork of [rswier/c4](https://github.com/rswier/c4/tree/master) with the
 following modifications:
 
 1. Added an option `-b` to dump the bytecode in a textual format.
-2. Made the bytecode format relocatable so that it can be loaded at any address.
+2. Added an option `-p` to make char, int and pointers the same size in the bytecode (1)
+3. Made the bytecode format relocatable so that it can be loaded at any address.
 
 The `c4.sh` POSIX shell script implements a virtual machine to run the C4 bytecode.
 
